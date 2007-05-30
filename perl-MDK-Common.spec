@@ -1,7 +1,4 @@
-# MODIFY IN THE CVS: cvs.mandrakesoft.com:/cooker soft/perl-MDK-Common
-
-# do not change the version here, change in MDK/Common.pm.pl
-%define version 1.2.3
+%define version 1.2.5
 %define release %mkrel 1
 
 Summary: Various simple functions
@@ -41,5 +38,3 @@ rm -rf $RPM_BUILD_ROOT
 %doc COPYING tutorial.html 
 %{perl_vendorlib}/MDK
 %{_mandir}/man*/*
-
-# MODIFY IN THE CVS: cvs.mandrakesoft.com:/cooker soft/perl-MDK-Common
