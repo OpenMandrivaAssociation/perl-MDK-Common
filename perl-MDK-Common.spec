@@ -10,7 +10,6 @@ Source0: MDK-Common-%version.tar.bz2
 License: GPL
 Group: Development/Perl
 Conflicts: drakxtools-newt < 9.1-30mdk, drakconf < 9.1-14mdk
-BuildRoot: %{_tmppath}/%{name}-buildroot
 BuildArch: noarch
 
 %description
