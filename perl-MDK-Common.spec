@@ -1,4 +1,4 @@
-%define version 1.2.9
+%define version 1.2.10
 %define release %mkrel 1
 
 Summary: Various simple functions
