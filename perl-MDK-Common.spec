@@ -7,7 +7,7 @@ Version: %{version}
 Release: %{release}
 URL: http://cvs.mandriva.com/cgi-bin/cvsweb.cgi/soft/perl-MDK-Common/
 Source0: MDK-Common-%version.tar.bz2
-License: GPL
+License: GPLv2+
 Group: Development/Perl
 Conflicts: drakxtools-newt < 9.1-30mdk, drakconf < 9.1-14mdk
 BuildRoot: %{_tmppath}/%{name}-buildroot
