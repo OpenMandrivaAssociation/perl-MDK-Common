@@ -5,7 +5,7 @@ Summary: Various simple functions
 Name: perl-MDK-Common
 Version: %{version}
 Release: %{release}
-URL: http://cvs.mandriva.com/cgi-bin/cvsweb.cgi/soft/perl-MDK-Common/
+URL: http://svn.mandriva.com/cgi-bin/viewvc.cgi/soft/perl-MDK-Common/
 Source0: MDK-Common-%version.tar.bz2
 License: GPLv2+
 Group: Development/Perl
