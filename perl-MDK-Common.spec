@@ -1,5 +1,5 @@
 %define version 1.2.27
-%define release %mkrel 2
+%define release %mkrel 3
 
 Summary: Various simple functions
 Name: perl-MDK-Common
