@@ -29,6 +29,6 @@ make test
 %makeinstall_std
 
 %files
-%doc COPYING tutorial.html 
+%doc tutorial.html 
 %{perl_vendorlib}/MDK
 %{_mandir}/man*/*
