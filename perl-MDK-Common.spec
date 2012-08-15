@@ -1,6 +1,3 @@
-%define version 1.2.29
-%define release %mkrel 1
-
 Summary:	Various simple functions
 %define	module	MDK-Common
 Name:		perl-%{module}
