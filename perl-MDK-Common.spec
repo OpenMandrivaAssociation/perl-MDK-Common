@@ -1,12 +1,12 @@
-%define version 1.2.27
-%define release %mkrel 6
+%define version 1.2.29
+%define release %mkrel 1
 
 Summary: Various simple functions
 Name: perl-MDK-Common
 Version: %{version}
 Release: %{release}
 URL: http://svn.mandriva.com/cgi-bin/viewvc.cgi/soft/perl-MDK-Common/
-Source0: MDK-Common-%version.tar.bz2
+Source0: MDK-Common-%version.tar.xz
 License: GPLv2+
 Group: Development/Perl
 Conflicts: drakxtools-newt < 9.1-30mdk, drakconf < 9.1-14mdk
