@@ -7,7 +7,7 @@ Name:		perl-%{module}
 Version:	1.2.29
 Release:	1
 URL:		http://svn.mandriva.com/cgi-bin/viewvc.cgi/soft/perl-MDK-Common/
-Source0:	MDK-Common-%version.tar.xz
+Source0:	%{module}-%{version}.tar.xz
 License:	GPLv2+
 Group:		Development/Perl
 Conflicts:	drakxtools-newt < 9.1-30mdk drakconf < 9.1-14mdk
