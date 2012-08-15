@@ -19,7 +19,7 @@ Various simple functions created for DrakX
 %setup -q -n %{module}-%{version}
 
 %build
-Makefile.PL INSTALLDIRS=vendor
+perl Makefile.PL INSTALLDIRS=vendor
 make
 
 %check
