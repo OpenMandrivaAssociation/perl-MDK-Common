@@ -10,7 +10,6 @@ URL:		http://svn.mandriva.com/cgi-bin/viewvc.cgi/soft/perl-MDK-Common/
 Source0:	%{module}-%{version}.tar.xz
 License:	GPLv2+
 Group:		Development/Perl
-Conflicts:	drakxtools-newt < 9.1-30mdk drakconf < 9.1-14mdk
 BuildArch:	noarch
 
 %description
