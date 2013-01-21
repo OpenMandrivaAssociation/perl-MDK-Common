@@ -9,6 +9,7 @@ Source0:	%{module}-%{version}.tar.xz
 License:	GPLv2+
 Group:		Development/Perl
 BuildRequires:	perl-JSON-PP
+BuildRequires:  perl-devel
 BuildArch:	noarch
 
 %description
