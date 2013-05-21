@@ -3,7 +3,7 @@
 Summary:	Various simple functions
 Name:		perl-%{module}
 Version:	1.2.29
-Release:	3
+Release:	4
 URL:		http://svn.mandriva.com/cgi-bin/viewvc.cgi/soft/perl-MDK-Common/
 Source0:	%{module}-%{version}.tar.xz
 License:	GPLv2+
