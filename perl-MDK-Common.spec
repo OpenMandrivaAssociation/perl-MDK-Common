@@ -4,19 +4,19 @@ Summary:	Various simple functions
 Name:		perl-%{module}
 Version:	1.2.29
 Release:	5
-URL:		http://svn.mandriva.com/cgi-bin/viewvc.cgi/soft/perl-MDK-Common/
-Source0:	%{module}-%{version}.tar.xz
 License:	GPLv2+
 Group:		Development/Perl
+Url:		http://svn.mandriva.com/cgi-bin/viewvc.cgi/soft/perl-MDK-Common/
+Source0:	%{module}-%{version}.tar.xz
+BuildArch:	noarch
 BuildRequires:	perl-JSON-PP
 BuildRequires:	perl-devel
-BuildArch:	noarch
 
 %description
 Various simple functions created for DrakX.
 
 %prep
-%setup -q -n %{module}-%{version}
+%setup -qn %{module}-%{version}
 
 %build
 perl Makefile.PL INSTALLDIRS=vendor
@@ -31,4 +31,5 @@ make test
 %files
 %doc tutorial.html 
 %{perl_vendorlib}/MDK
-%{_mandir}/man*/*
+%{_mandir}/man3/*
+
