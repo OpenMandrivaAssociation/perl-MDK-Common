@@ -3,10 +3,10 @@
 Summary:	Various simple functions
 Name:		perl-%{module}
 Version:	1.2.29
-Release:	11
+Release:	12
 License:	GPLv2+
 Group:		Development/Perl
-Url:		http://svn.mandriva.com/cgi-bin/viewvc.cgi/soft/perl-MDK-Common/
+Url:		https://abf.io/omv_software/perl-MDK-Common
 Source0:	%{module}-%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	perl-JSON-PP
