@@ -2,11 +2,11 @@
 
 Summary:	Various simple functions
 Name:		perl-%{module}
-Version:	1.2.30
+Version:	1.2.31.1
 Release:	1
 License:	GPLv2+
 Group:		Development/Perl
-Url:		https://abf.io/omv_software/perl-MDK-Common
+Url:		https://abf.io/software/perl-MDK-Common
 Source0:	%{module}-%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	perl-JSON-PP
