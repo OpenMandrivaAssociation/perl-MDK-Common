@@ -3,7 +3,7 @@
 Summary:	Various simple functions
 Name:		perl-%{module}
 Version:	1.2.31.1
-Release:	1
+Release:	2
 License:	GPLv2+
 Group:		Development/Perl
 Url:		https://abf.io/software/perl-MDK-Common
